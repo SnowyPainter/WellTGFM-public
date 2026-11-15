@@ -1,0 +1,21 @@
+experiment: cross_representation
+protocol: tgat_typed_source_ctdg_target_v1
+datasets: [lastfm, mooc, ICEWS14]
+families: {lastfm: ctdg, mooc: ctdg, ICEWS14: tkg}
+target: lastfm
+sources: [mooc, ICEWS14]
+data_root: data/benchmarks/events32768
+max_events: 32768
+seeds: [7, 17, 37]
+pretrain_updates: 60
+epochs: 5
+batch_size: 2048
+tkg_batch_size: 1024
+microbatch: 512
+history_length: 32
+learning_rate: 0.0001
+weight_decay: 0.0
+grad_clip: 1.0
+cpu_threads: 2
+device: cuda:0
+output_root: experiments/transfer/outputs/cross_representation_v1

@@ -1,0 +1,13 @@
+{
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "memory_mib": 97887,
+  "compute_capability": "12.0",
+  "device": "cuda:0",
+  "cpu_threads": 2,
+  "float32_matmul_precision": "high",
+  "precision": "float32",
+  "effective_batch_size": 256,
+  "tgpm_microbatch": 128,
+  "concurrent_training_jobs": 1,
+  "note": "TF32-enabled FP32 baseline. BF16 and larger batches require numerical and memory benchmarks; never change the effective training budget based on VRAM."
+}

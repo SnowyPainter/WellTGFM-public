@@ -1,0 +1,812 @@
+{
+  "jobs": [
+    {
+      "job_id": "wiki_reddit__p7__a7",
+      "case_id": "wiki_reddit",
+      "target": "wikipedia",
+      "sources": [
+        "reddit"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_reddit.pt",
+      "checkpoint_sha256": "5f41851e46318960e71e08cb5b4d93498c66fd35c6682caa78a0b3cc7ea526fa"
+    },
+    {
+      "job_id": "wiki_reddit__p7__a17",
+      "case_id": "wiki_reddit",
+      "target": "wikipedia",
+      "sources": [
+        "reddit"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_reddit.pt",
+      "checkpoint_sha256": "5f41851e46318960e71e08cb5b4d93498c66fd35c6682caa78a0b3cc7ea526fa"
+    },
+    {
+      "job_id": "wiki_reddit__p7__a37",
+      "case_id": "wiki_reddit",
+      "target": "wikipedia",
+      "sources": [
+        "reddit"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_reddit.pt",
+      "checkpoint_sha256": "5f41851e46318960e71e08cb5b4d93498c66fd35c6682caa78a0b3cc7ea526fa"
+    },
+    {
+      "job_id": "wiki_reddit_lastfm__p7__a7",
+      "case_id": "wiki_reddit_lastfm",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_reddit_lastfm.pt",
+      "checkpoint_sha256": "9fb32de3466b3036c049df81002de698b77d6b5391771349d9e67c1635411824"
+    },
+    {
+      "job_id": "wiki_reddit_lastfm__p7__a17",
+      "case_id": "wiki_reddit_lastfm",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_reddit_lastfm.pt",
+      "checkpoint_sha256": "9fb32de3466b3036c049df81002de698b77d6b5391771349d9e67c1635411824"
+    },
+    {
+      "job_id": "wiki_reddit_lastfm__p7__a37",
+      "case_id": "wiki_reddit_lastfm",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_reddit_lastfm.pt",
+      "checkpoint_sha256": "9fb32de3466b3036c049df81002de698b77d6b5391771349d9e67c1635411824"
+    },
+    {
+      "job_id": "wiki_four__p7__a7",
+      "case_id": "wiki_four",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "mooc",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_four.pt",
+      "checkpoint_sha256": "be37058e4addd0779af71237b19f26a691017491678af9093b50a6b107304abd"
+    },
+    {
+      "job_id": "wiki_four__p7__a17",
+      "case_id": "wiki_four",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "mooc",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_four.pt",
+      "checkpoint_sha256": "be37058e4addd0779af71237b19f26a691017491678af9093b50a6b107304abd"
+    },
+    {
+      "job_id": "wiki_four__p7__a37",
+      "case_id": "wiki_four",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "mooc",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_four.pt",
+      "checkpoint_sha256": "be37058e4addd0779af71237b19f26a691017491678af9093b50a6b107304abd"
+    },
+    {
+      "job_id": "wiki_five__p7__a7",
+      "case_id": "wiki_five",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "mooc",
+        "lastfm",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_five.pt",
+      "checkpoint_sha256": "2258cae1c79da107affcb631f1c3d101b90acd514ff7c23d0787e3cb58a746c4"
+    },
+    {
+      "job_id": "wiki_five__p7__a17",
+      "case_id": "wiki_five",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "mooc",
+        "lastfm",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_five.pt",
+      "checkpoint_sha256": "2258cae1c79da107affcb631f1c3d101b90acd514ff7c23d0787e3cb58a746c4"
+    },
+    {
+      "job_id": "wiki_five__p7__a37",
+      "case_id": "wiki_five",
+      "target": "wikipedia",
+      "sources": [
+        "reddit",
+        "mooc",
+        "lastfm",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/wiki_five.pt",
+      "checkpoint_sha256": "2258cae1c79da107affcb631f1c3d101b90acd514ff7c23d0787e3cb58a746c4"
+    },
+    {
+      "job_id": "reddit_wiki_gdelt__p7__a7",
+      "case_id": "reddit_wiki_gdelt",
+      "target": "reddit",
+      "sources": [
+        "wikipedia",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_wiki_gdelt.pt",
+      "checkpoint_sha256": "a12c2e18f012986fd7a750af1975892b40f6a6c32ec71e12585bdd6d6a13975c"
+    },
+    {
+      "job_id": "reddit_wiki_gdelt__p7__a17",
+      "case_id": "reddit_wiki_gdelt",
+      "target": "reddit",
+      "sources": [
+        "wikipedia",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_wiki_gdelt.pt",
+      "checkpoint_sha256": "a12c2e18f012986fd7a750af1975892b40f6a6c32ec71e12585bdd6d6a13975c"
+    },
+    {
+      "job_id": "reddit_wiki_gdelt__p7__a37",
+      "case_id": "reddit_wiki_gdelt",
+      "target": "reddit",
+      "sources": [
+        "wikipedia",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_wiki_gdelt.pt",
+      "checkpoint_sha256": "a12c2e18f012986fd7a750af1975892b40f6a6c32ec71e12585bdd6d6a13975c"
+    },
+    {
+      "job_id": "reddit_wiki_icews_gdelt__p7__a7",
+      "case_id": "reddit_wiki_icews_gdelt",
+      "target": "reddit",
+      "sources": [
+        "wikipedia",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_wiki_icews_gdelt.pt",
+      "checkpoint_sha256": "5195b58ad3dbc6485e26115cd5feccce45c8d6fcbbb178aa57050974af0e58f2"
+    },
+    {
+      "job_id": "reddit_wiki_icews_gdelt__p7__a17",
+      "case_id": "reddit_wiki_icews_gdelt",
+      "target": "reddit",
+      "sources": [
+        "wikipedia",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_wiki_icews_gdelt.pt",
+      "checkpoint_sha256": "5195b58ad3dbc6485e26115cd5feccce45c8d6fcbbb178aa57050974af0e58f2"
+    },
+    {
+      "job_id": "reddit_wiki_icews_gdelt__p7__a37",
+      "case_id": "reddit_wiki_icews_gdelt",
+      "target": "reddit",
+      "sources": [
+        "wikipedia",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_wiki_icews_gdelt.pt",
+      "checkpoint_sha256": "5195b58ad3dbc6485e26115cd5feccce45c8d6fcbbb178aa57050974af0e58f2"
+    },
+    {
+      "job_id": "reddit_mooc_lastfm__p7__a7",
+      "case_id": "reddit_mooc_lastfm",
+      "target": "reddit",
+      "sources": [
+        "mooc",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_mooc_lastfm.pt",
+      "checkpoint_sha256": "11a579d79a45344645f6257060e27eb87f626decde04b9e1da7145e835dcd61a"
+    },
+    {
+      "job_id": "reddit_mooc_lastfm__p7__a17",
+      "case_id": "reddit_mooc_lastfm",
+      "target": "reddit",
+      "sources": [
+        "mooc",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_mooc_lastfm.pt",
+      "checkpoint_sha256": "11a579d79a45344645f6257060e27eb87f626decde04b9e1da7145e835dcd61a"
+    },
+    {
+      "job_id": "reddit_mooc_lastfm__p7__a37",
+      "case_id": "reddit_mooc_lastfm",
+      "target": "reddit",
+      "sources": [
+        "mooc",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_mooc_lastfm.pt",
+      "checkpoint_sha256": "11a579d79a45344645f6257060e27eb87f626decde04b9e1da7145e835dcd61a"
+    },
+    {
+      "job_id": "reddit_mooc_lastfm_icews__p7__a7",
+      "case_id": "reddit_mooc_lastfm_icews",
+      "target": "reddit",
+      "sources": [
+        "mooc",
+        "lastfm",
+        "ICEWS14"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_mooc_lastfm_icews.pt",
+      "checkpoint_sha256": "2cbd4a31e43ba461ca8bd9f5e910e74ac94fea47f1360c7b72d267cc793437e1"
+    },
+    {
+      "job_id": "reddit_mooc_lastfm_icews__p7__a17",
+      "case_id": "reddit_mooc_lastfm_icews",
+      "target": "reddit",
+      "sources": [
+        "mooc",
+        "lastfm",
+        "ICEWS14"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_mooc_lastfm_icews.pt",
+      "checkpoint_sha256": "2cbd4a31e43ba461ca8bd9f5e910e74ac94fea47f1360c7b72d267cc793437e1"
+    },
+    {
+      "job_id": "reddit_mooc_lastfm_icews__p7__a37",
+      "case_id": "reddit_mooc_lastfm_icews",
+      "target": "reddit",
+      "sources": [
+        "mooc",
+        "lastfm",
+        "ICEWS14"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/reddit_mooc_lastfm_icews.pt",
+      "checkpoint_sha256": "2cbd4a31e43ba461ca8bd9f5e910e74ac94fea47f1360c7b72d267cc793437e1"
+    },
+    {
+      "job_id": "mooc_wiki_lastfm__p7__a7",
+      "case_id": "mooc_wiki_lastfm",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_wiki_lastfm.pt",
+      "checkpoint_sha256": "b10b2f1cf820c1754e79dd90392a2ff546728adc796c4f8cb3452af54f527290"
+    },
+    {
+      "job_id": "mooc_wiki_lastfm__p7__a17",
+      "case_id": "mooc_wiki_lastfm",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_wiki_lastfm.pt",
+      "checkpoint_sha256": "b10b2f1cf820c1754e79dd90392a2ff546728adc796c4f8cb3452af54f527290"
+    },
+    {
+      "job_id": "mooc_wiki_lastfm__p7__a37",
+      "case_id": "mooc_wiki_lastfm",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_wiki_lastfm.pt",
+      "checkpoint_sha256": "b10b2f1cf820c1754e79dd90392a2ff546728adc796c4f8cb3452af54f527290"
+    },
+    {
+      "job_id": "mooc_wiki_lastfm_gdelt__p7__a7",
+      "case_id": "mooc_wiki_lastfm_gdelt",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_wiki_lastfm_gdelt.pt",
+      "checkpoint_sha256": "c6bd41d9ca6e61e2842b80d537eba65f121a30e0d9ea7d6f9566169043ce7f80"
+    },
+    {
+      "job_id": "mooc_wiki_lastfm_gdelt__p7__a17",
+      "case_id": "mooc_wiki_lastfm_gdelt",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_wiki_lastfm_gdelt.pt",
+      "checkpoint_sha256": "c6bd41d9ca6e61e2842b80d537eba65f121a30e0d9ea7d6f9566169043ce7f80"
+    },
+    {
+      "job_id": "mooc_wiki_lastfm_gdelt__p7__a37",
+      "case_id": "mooc_wiki_lastfm_gdelt",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_wiki_lastfm_gdelt.pt",
+      "checkpoint_sha256": "c6bd41d9ca6e61e2842b80d537eba65f121a30e0d9ea7d6f9566169043ce7f80"
+    },
+    {
+      "job_id": "mooc_four__p7__a7",
+      "case_id": "mooc_four",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_four.pt",
+      "checkpoint_sha256": "e4e42db6ed6a28eca0f22a17f8c1480021a208d1e0e7dfee0bf9f6333c169702"
+    },
+    {
+      "job_id": "mooc_four__p7__a17",
+      "case_id": "mooc_four",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_four.pt",
+      "checkpoint_sha256": "e4e42db6ed6a28eca0f22a17f8c1480021a208d1e0e7dfee0bf9f6333c169702"
+    },
+    {
+      "job_id": "mooc_four__p7__a37",
+      "case_id": "mooc_four",
+      "target": "mooc",
+      "sources": [
+        "wikipedia",
+        "lastfm",
+        "ICEWS14",
+        "GDELT"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/mooc_four.pt",
+      "checkpoint_sha256": "e4e42db6ed6a28eca0f22a17f8c1480021a208d1e0e7dfee0bf9f6333c169702"
+    },
+    {
+      "job_id": "lastfm_mooc__p7__a7",
+      "case_id": "lastfm_mooc",
+      "target": "lastfm",
+      "sources": [
+        "mooc"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_mooc.pt",
+      "checkpoint_sha256": "52bb6895b2eba707219dfc754583290c4c975d9b24b6d5369461ab5757ab5cd6"
+    },
+    {
+      "job_id": "lastfm_mooc__p7__a17",
+      "case_id": "lastfm_mooc",
+      "target": "lastfm",
+      "sources": [
+        "mooc"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_mooc.pt",
+      "checkpoint_sha256": "52bb6895b2eba707219dfc754583290c4c975d9b24b6d5369461ab5757ab5cd6"
+    },
+    {
+      "job_id": "lastfm_mooc__p7__a37",
+      "case_id": "lastfm_mooc",
+      "target": "lastfm",
+      "sources": [
+        "mooc"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_mooc.pt",
+      "checkpoint_sha256": "52bb6895b2eba707219dfc754583290c4c975d9b24b6d5369461ab5757ab5cd6"
+    },
+    {
+      "job_id": "lastfm_reddit_mooc__p7__a7",
+      "case_id": "lastfm_reddit_mooc",
+      "target": "lastfm",
+      "sources": [
+        "reddit",
+        "mooc"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_reddit_mooc.pt",
+      "checkpoint_sha256": "c02510e0afae0e3a921331d87c94c5d8ce8d3186ce1611604cf6b93543324e28"
+    },
+    {
+      "job_id": "lastfm_reddit_mooc__p7__a17",
+      "case_id": "lastfm_reddit_mooc",
+      "target": "lastfm",
+      "sources": [
+        "reddit",
+        "mooc"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_reddit_mooc.pt",
+      "checkpoint_sha256": "c02510e0afae0e3a921331d87c94c5d8ce8d3186ce1611604cf6b93543324e28"
+    },
+    {
+      "job_id": "lastfm_reddit_mooc__p7__a37",
+      "case_id": "lastfm_reddit_mooc",
+      "target": "lastfm",
+      "sources": [
+        "reddit",
+        "mooc"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_reddit_mooc.pt",
+      "checkpoint_sha256": "c02510e0afae0e3a921331d87c94c5d8ce8d3186ce1611604cf6b93543324e28"
+    },
+    {
+      "job_id": "lastfm_reddit_mooc_icews__p7__a7",
+      "case_id": "lastfm_reddit_mooc_icews",
+      "target": "lastfm",
+      "sources": [
+        "reddit",
+        "mooc",
+        "ICEWS14"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_reddit_mooc_icews.pt",
+      "checkpoint_sha256": "edeb90858e739a4c7dd674f3c7ec03851077a138d1768dc1b25973df8ce5d05f"
+    },
+    {
+      "job_id": "lastfm_reddit_mooc_icews__p7__a17",
+      "case_id": "lastfm_reddit_mooc_icews",
+      "target": "lastfm",
+      "sources": [
+        "reddit",
+        "mooc",
+        "ICEWS14"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_reddit_mooc_icews.pt",
+      "checkpoint_sha256": "edeb90858e739a4c7dd674f3c7ec03851077a138d1768dc1b25973df8ce5d05f"
+    },
+    {
+      "job_id": "lastfm_reddit_mooc_icews__p7__a37",
+      "case_id": "lastfm_reddit_mooc_icews",
+      "target": "lastfm",
+      "sources": [
+        "reddit",
+        "mooc",
+        "ICEWS14"
+      ],
+      "pretrain_seed": 7,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": "experiments/target_adaptation/inputs/checkpoints/lastfm_reddit_mooc_icews.pt",
+      "checkpoint_sha256": "edeb90858e739a4c7dd674f3c7ec03851077a138d1768dc1b25973df8ce5d05f"
+    },
+    {
+      "job_id": "wikipedia_target_only__pnone__a7",
+      "case_id": "wikipedia_target_only",
+      "target": "wikipedia",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "wikipedia_target_only__pnone__a17",
+      "case_id": "wikipedia_target_only",
+      "target": "wikipedia",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "wikipedia_target_only__pnone__a37",
+      "case_id": "wikipedia_target_only",
+      "target": "wikipedia",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "reddit_target_only__pnone__a7",
+      "case_id": "reddit_target_only",
+      "target": "reddit",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "reddit_target_only__pnone__a17",
+      "case_id": "reddit_target_only",
+      "target": "reddit",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "reddit_target_only__pnone__a37",
+      "case_id": "reddit_target_only",
+      "target": "reddit",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "mooc_target_only__pnone__a7",
+      "case_id": "mooc_target_only",
+      "target": "mooc",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "mooc_target_only__pnone__a17",
+      "case_id": "mooc_target_only",
+      "target": "mooc",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "mooc_target_only__pnone__a37",
+      "case_id": "mooc_target_only",
+      "target": "mooc",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "lastfm_target_only__pnone__a7",
+      "case_id": "lastfm_target_only",
+      "target": "lastfm",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 7,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "lastfm_target_only__pnone__a17",
+      "case_id": "lastfm_target_only",
+      "target": "lastfm",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 17,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    },
+    {
+      "job_id": "lastfm_target_only__pnone__a37",
+      "case_id": "lastfm_target_only",
+      "target": "lastfm",
+      "sources": [],
+      "pretrain_seed": null,
+      "adaptation_seed": 37,
+      "stage": "development",
+      "evaluation_negative_seed": 100007,
+      "checkpoint": null,
+      "checkpoint_sha256": "random_initialization"
+    }
+  ],
+  "pretrain_seed": 7,
+  "adaptation_seeds": [
+    7,
+    17,
+    37
+  ],
+  "test_used": false
+}

@@ -1,0 +1,1801 @@
+{
+  "provenance": [
+    {
+      "path": "experiments/transfer/outputs/cross_representation_two_tkg_v1/analysis/source_interactions/edges.json",
+      "sha256": "06893c4b232a640057162fcc144052ccc7bf867ccd659ae64f19074a8de6ce4e"
+    },
+    {
+      "path": "experiments/preliminary/head_initialization_v1/comparison.csv",
+      "sha256": "8b0b2a4ca3dea37644f3ff25c59e3b70e4cbe78583e694bdd5a36d91af228a56"
+    },
+    {
+      "path": "docs/claim.md",
+      "sha256": "f5172cc870ffc818cde6ef73390bd4d5f1081338e688dab4af1ea18e89507623"
+    }
+  ],
+  "description": {
+    "a": "All 219 paths that improve every retained Source among 900 fixed-total-budget paths. Source and Target Validation AP differences, not transfer G. Paths share checkpoints.",
+    "b": "One MOOC checkpoint, pretraining seed 7 and other adaptation RNG seed 7; all three Head seeds. Best-Validation-epoch AP.",
+    "c": "TGAT full powerset, 5 epochs, all four Targets equally weighted; means from Table 2. AP rounded to four decimals; mean G from B_G-D_G. Method-matched Target-only."
+  },
+  "source_improvement_paths": [
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "reddit",
+      "added": "mooc",
+      "source_mean_delta": 0.0007562727562864247,
+      "target_delta": -0.004228272115627818
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.01632644191846755,
+      "target_delta": -0.029141453883790747
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "reddit",
+      "source_mean_delta": 0.035320101717327135,
+      "target_delta": -0.005109072373892021
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "mooc",
+      "source_mean_delta": 0.019300130226211354,
+      "target_delta": -0.00018825425143598196
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.015146501637707033,
+      "target_delta": -0.0006131204549857383
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.023022686539657555,
+      "target_delta": 0.024988061301167486
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "reddit",
+      "source_mean_delta": 0.004887277141961022,
+      "target_delta": 0.012573680225423378
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.0053849957172174,
+      "target_delta": 0.016072075786231488
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.006720140931462892,
+      "target_delta": 0.029986838751031586
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.01517483353292337,
+      "target_delta": 0.018503540859845846
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "reddit+mooc",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.0062800686341187295,
+      "target_delta": -0.020404026503234696
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "reddit+lastfm",
+      "added": "mooc",
+      "source_mean_delta": 0.005758008941052162,
+      "target_delta": -0.002810783624475288
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "reddit+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.01663954642654808,
+      "target_delta": -0.009355814213211633
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "reddit+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.019593659733234903,
+      "target_delta": 0.010477636108813915
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "mooc+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.003317567639457175,
+      "target_delta": -0.009574393563650307
+    },
+    {
+      "target": "wikipedia",
+      "seed": 7,
+      "sources": "mooc+lastfm+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.013810300575661535,
+      "target_delta": -0.0011272176227163921
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.013868730969160192,
+      "target_delta": 0.014228379206088437
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "reddit",
+      "source_mean_delta": 0.018805934854947637,
+      "target_delta": 0.026022877782143627
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "mooc",
+      "source_mean_delta": 0.015860512741885824,
+      "target_delta": -0.02139937710022921
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.028643575487807382,
+      "target_delta": 0.022508394168993306
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.013209118273143194,
+      "target_delta": 0.027569839449981592
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "reddit",
+      "source_mean_delta": 0.004888606190669775,
+      "target_delta": 0.02701618400434791
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.006657462259401226,
+      "target_delta": 0.02334022557626203
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.0035252659174568324,
+      "target_delta": 0.03640596458112799
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.013888030831053277,
+      "target_delta": -0.0003135163166556598
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "reddit+lastfm",
+      "added": "mooc",
+      "source_mean_delta": 0.0175154397311299,
+      "target_delta": 0.00340592534949391
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "reddit+lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.005152967388328655,
+      "target_delta": -0.0011377128561729233
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "reddit+lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.007013120575620868,
+      "target_delta": -0.013574895001864484
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "reddit+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.014413568649590758,
+      "target_delta": 0.007750102137633497
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "reddit+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.020735842271245197,
+      "target_delta": 0.005822667545345661
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "reddit+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.018546307646732985,
+      "target_delta": -0.0017826788423833673
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "lastfm+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.0019027312111510875,
+      "target_delta": -0.001604325704431253
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "lastfm+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.0033068058414810197,
+      "target_delta": -0.015558537663359462
+    },
+    {
+      "target": "wikipedia",
+      "seed": 17,
+      "sources": "mooc+ICEWS14+GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.004285098093154249,
+      "target_delta": -0.015058302292332737
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.01449337009709184,
+      "target_delta": -0.01806110938013894
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "reddit",
+      "source_mean_delta": 0.03628537521996511,
+      "target_delta": -0.05284937503871423
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "mooc",
+      "source_mean_delta": 0.012475266612348657,
+      "target_delta": -0.05818721316789888
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.053296390230929136,
+      "target_delta": 0.009969517823427698
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.037984647358808576,
+      "target_delta": -0.02882614282119167
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.002391446998941338,
+      "target_delta": -0.011106335716190907
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.0011160961199119246,
+      "target_delta": -0.013634602049605427
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.01320653852416609,
+      "target_delta": 0.009681917563508557
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "reddit+mooc",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.009274334612015267,
+      "target_delta": 0.014045273959615745
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "reddit+mooc",
+      "added": "GDELT",
+      "source_mean_delta": 0.010767816668894925,
+      "target_delta": -0.008368215893202136
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "reddit+lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.006960393022964417,
+      "target_delta": 0.030754931718112277
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "reddit+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.021838704554394017,
+      "target_delta": -0.004265997904800201
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "reddit+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.02423415075733093,
+      "target_delta": -0.010956330602493458
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "reddit+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.017222478216999237,
+      "target_delta": 0.004887097583519129
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "mooc+lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.01857001895935856,
+      "target_delta": 0.026623768111129542
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "lastfm+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.0015523322511106774,
+      "target_delta": -0.01683901843809421
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "lastfm+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.002001258440691822,
+      "target_delta": 0.02646030784652076
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "lastfm+ICEWS14+GDELT",
+      "added": "reddit",
+      "source_mean_delta": 0.0021128330236941015,
+      "target_delta": -0.03315331425634305
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "lastfm+ICEWS14+GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.0034861180829925953,
+      "target_delta": -0.0005291434437483256
+    },
+    {
+      "target": "wikipedia",
+      "seed": 37,
+      "sources": "reddit+mooc+lastfm+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.012092834723334056,
+      "target_delta": -0.0036636404572645276
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "wikipedia",
+      "source_mean_delta": 0.04243636114255955,
+      "target_delta": -0.008231849329344954
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "mooc",
+      "source_mean_delta": 0.019300130226211354,
+      "target_delta": 0.00911088443718211
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.023320608547655275,
+      "target_delta": -0.002709038198582814
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.014745140764834574,
+      "target_delta": 0.0018651696353537695
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "wikipedia",
+      "source_mean_delta": 0.005484017258093998,
+      "target_delta": 0.02470682921853906
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.0052674497517317675,
+      "target_delta": 0.018333482924467126
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.0063653991825231016,
+      "target_delta": 0.017879425371042812
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.015046977627766411,
+      "target_delta": 0.014040364692200269
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "wikipedia+mooc",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.027554859874148352,
+      "target_delta": -0.016714021003835455
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "wikipedia+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.012205307484711492,
+      "target_delta": -0.007672200561636089
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "mooc+lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.007886036031673593,
+      "target_delta": 0.0009027854756962217
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "mooc+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.003877767819700062,
+      "target_delta": -0.0008436162118953261
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "lastfm+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.005118147331205969,
+      "target_delta": 0.012722708111461145
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "wikipedia+mooc+GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.007720873440170657,
+      "target_delta": 0.007133464856002414
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "mooc+lastfm+GDELT",
+      "added": "wikipedia",
+      "source_mean_delta": 0.011823855255780816,
+      "target_delta": -0.0011848884568279594
+    },
+    {
+      "target": "reddit",
+      "seed": 7,
+      "sources": "mooc+lastfm+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.014352261251418641,
+      "target_delta": 0.0004467535314647275
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "mooc",
+      "source_mean_delta": 0.01153840996723754,
+      "target_delta": 0.003588377004717702
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "lastfm",
+      "source_mean_delta": 0.03096976990182143,
+      "target_delta": 0.00456882173891815
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.004021925497303291,
+      "target_delta": 9.967013454537099e-05
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "GDELT",
+      "source_mean_delta": 0.019666797244918266,
+      "target_delta": 0.006869263503669898
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "wikipedia",
+      "source_mean_delta": 0.034946538408923145,
+      "target_delta": 0.011179159337454614
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "mooc",
+      "source_mean_delta": 0.015860512741885824,
+      "target_delta": 0.006381691257409838
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.033278714418417676,
+      "target_delta": 0.013163679750222479
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.01606183092260005,
+      "target_delta": 0.016277973877689034
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "wikipedia",
+      "source_mean_delta": 0.003869637426790473,
+      "target_delta": 0.004133309358670845
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.006767136661271489,
+      "target_delta": 0.009895714292451618
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.0037077800925221505,
+      "target_delta": 0.006931682134153516
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.013876935524288592,
+      "target_delta": 0.002287794355517181
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.0041709043411853886,
+      "target_delta": -0.004332259787401482
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.021145517115342405,
+      "target_delta": 0.005728771018335466
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "lastfm+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.0008156518891593856,
+      "target_delta": 0.0015954372560267327
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia+mooc+GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.00883617690136281,
+      "target_delta": 0.0022486808295318905
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia+mooc+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.005215650182220033,
+      "target_delta": 0.005199829342817042
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "wikipedia+lastfm+GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.005321713743236127,
+      "target_delta": -0.005181346922615848
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "mooc+lastfm+GDELT",
+      "added": "wikipedia",
+      "source_mean_delta": 0.005730383548802435,
+      "target_delta": -0.009615435411963302
+    },
+    {
+      "target": "reddit",
+      "seed": 17,
+      "sources": "mooc+ICEWS14+GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.0028272184813658376,
+      "target_delta": 0.001079325714340329
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "wikipedia",
+      "source_mean_delta": 0.03225440545587044,
+      "target_delta": 0.011279497515242265
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "mooc",
+      "source_mean_delta": 0.012475266612348657,
+      "target_delta": 0.001979518302136385
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.048139235303074734,
+      "target_delta": 0.008747050361134878
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.048712835448395775,
+      "target_delta": 0.015088637818955641
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.0026372517849584387,
+      "target_delta": 0.04024486275356132
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.0011471239697604663,
+      "target_delta": 0.04469357864735146
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.01325459474656776,
+      "target_delta": 0.03416354207726191
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+mooc",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.010318882866262424,
+      "target_delta": -0.0009917578484468503
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+mooc",
+      "added": "GDELT",
+      "source_mean_delta": 0.0079846275814624,
+      "target_delta": 0.00428662195045304
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.017521688103524447,
+      "target_delta": -0.004714618372978929
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.020074642947333743,
+      "target_delta": -0.001209886113021974
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.018574962228495195,
+      "target_delta": -0.005322269402659674
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.02839339266500529,
+      "target_delta": -0.004915315035150525
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.003821093975631573,
+      "target_delta": -0.007165785655693591
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "mooc+lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.01281151029448141,
+      "target_delta": 0.008490349000999986
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "mooc+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.0016336337917129962,
+      "target_delta": -0.007323934531662135
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "lastfm+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.004480232192720424,
+      "target_delta": 0.0024484204082431127
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+mooc+lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.01364221124442122,
+      "target_delta": -0.00291927505552092
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14+GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.0063279784665478305,
+      "target_delta": 0.0017190412361098861
+    },
+    {
+      "target": "reddit",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14+GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.008895322343131137,
+      "target_delta": 0.0022600610019991585
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "reddit",
+      "added": "wikipedia",
+      "source_mean_delta": 0.009143872030172862,
+      "target_delta": -0.002310999720771978
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.028953049563671618,
+      "target_delta": -0.006204255194475872
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "wikipedia",
+      "source_mean_delta": 0.04243636114255955,
+      "target_delta": 0.006682970293648505
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "reddit",
+      "source_mean_delta": 0.025924562475721058,
+      "target_delta": 0.013230006271939154
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.02108165027206299,
+      "target_delta": 0.0023559154289142237
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.01410416125739411,
+      "target_delta": 0.007387199423650959
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "wikipedia",
+      "source_mean_delta": 0.005508013729270678,
+      "target_delta": 0.008846280661797379
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "reddit",
+      "source_mean_delta": 0.004228359687016181,
+      "target_delta": 0.0199793554443376
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.006553690734280693,
+      "target_delta": 0.004991082724388418
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.015274941617021698,
+      "target_delta": -0.00042806093417280255
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "wikipedia+reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.02408002163094214,
+      "target_delta": -0.0149645655395243
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "wikipedia+reddit",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.01871968373109345,
+      "target_delta": -0.006911474938321893
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "wikipedia+reddit",
+      "added": "GDELT",
+      "source_mean_delta": 0.009275679536731751,
+      "target_delta": -0.01685416154748043
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "wikipedia+ICEWS14",
+      "added": "reddit",
+      "source_mean_delta": 0.010846928139951362,
+      "target_delta": -0.002283753171791858
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "reddit+lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.004373610407193307,
+      "target_delta": -0.0008782079347953164
+    },
+    {
+      "target": "mooc",
+      "seed": 7,
+      "sources": "reddit+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.009013722236789756,
+      "target_delta": -0.019377694829636694
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "reddit",
+      "source_mean_delta": 0.005111436328961494,
+      "target_delta": 0.0028367363483242647
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "lastfm",
+      "source_mean_delta": 0.03096976990182143,
+      "target_delta": 0.0008421036278749572
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "GDELT",
+      "source_mean_delta": 0.010934136924792615,
+      "target_delta": 0.006790480477271044
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "reddit",
+      "added": "wikipedia",
+      "source_mean_delta": 0.01702978201976235,
+      "target_delta": 0.0006624098107752552
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.03189098639089294,
+      "target_delta": 1.1404907564571687e-05
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "reddit",
+      "added": "GDELT",
+      "source_mean_delta": 0.007783229292011362,
+      "target_delta": 0.005861290007582287
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "wikipedia",
+      "source_mean_delta": 0.034946538408923145,
+      "target_delta": 3.9331365345396385e-05
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "reddit",
+      "source_mean_delta": 0.012039642221598923,
+      "target_delta": 0.0013829591825840204
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.03060016142957611,
+      "target_delta": 0.006291341886227375
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.01792131562691357,
+      "target_delta": 0.0023574044672554084
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "wikipedia",
+      "source_mean_delta": 0.003962738010619193,
+      "target_delta": -0.0024472130529884506
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "reddit",
+      "source_mean_delta": 0.004812085260511911,
+      "target_delta": -0.0012020769851281976
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.0037037954902238157,
+      "target_delta": -0.006077516800474525
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.013701927059673324,
+      "target_delta": 0.0018388119610289744
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia+reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.010305436564126025,
+      "target_delta": -0.004372691530022066
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia+reddit",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.008805054396799517,
+      "target_delta": -0.0024700992005435296
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia+reddit",
+      "added": "GDELT",
+      "source_mean_delta": 0.005753170072126834,
+      "target_delta": -0.002556008210862659
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia+ICEWS14",
+      "added": "reddit",
+      "source_mean_delta": 0.014688440206578668,
+      "target_delta": -0.007205280643659995
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.027406170661984752,
+      "target_delta": -0.006728451948967873
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "reddit+lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.003940801264911142,
+      "target_delta": 0.0010882038618540424
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "reddit+lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.004702663040069555,
+      "target_delta": -0.0016640717112070824
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "reddit+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.025229278309858993,
+      "target_delta": -0.003110728046315181
+    },
+    {
+      "target": "mooc",
+      "seed": 17,
+      "sources": "wikipedia+reddit+lastfm+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.03968712661357082,
+      "target_delta": 0.0022100101767608127
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "reddit",
+      "added": "wikipedia",
+      "source_mean_delta": 0.018190814251324627,
+      "target_delta": -0.0011390390808025952
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.014415562493624301,
+      "target_delta": -0.0011605641947065592
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "wikipedia",
+      "source_mean_delta": 0.03225440545587044,
+      "target_delta": -0.004621170838153055
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "reddit",
+      "source_mean_delta": 0.021178059009411054,
+      "target_delta": 0.0015280235882987325
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.04353231916130895,
+      "target_delta": -0.007555887412892481
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.03412035936179547,
+      "target_delta": 0.007475372738312558
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.0011103909419054592,
+      "target_delta": 0.02352869261633761
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.0132215863705335,
+      "target_delta": 0.007510745581024714
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "wikipedia+reddit",
+      "added": "lastfm",
+      "source_mean_delta": 0.010035018122264427,
+      "target_delta": -0.0021323281409558748
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "wikipedia+lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.01858713174275206,
+      "target_delta": 0.0006609449793005817
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "wikipedia+lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.015450643131917963,
+      "target_delta": 0.0011157005592894453
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14",
+      "added": "reddit",
+      "source_mean_delta": 0.017927103627772945,
+      "target_delta": 0.0006871290202733471
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.026862727693382826,
+      "target_delta": 0.0018755285998302007
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "wikipedia+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.006006704052873957,
+      "target_delta": -0.014654672566799087
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "reddit+lastfm",
+      "added": "wikipedia",
+      "source_mean_delta": 0.00610999251623684,
+      "target_delta": -0.0021108030270519107
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "reddit+lastfm",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.015816695185179197,
+      "target_delta": 0.0016515788842915713
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "reddit+lastfm",
+      "added": "GDELT",
+      "source_mean_delta": 0.008346907048206342,
+      "target_delta": -0.0053497799423587455
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "reddit+ICEWS14",
+      "added": "wikipedia",
+      "source_mean_delta": 0.015955023184129002,
+      "target_delta": 0.0004940286498371638
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "reddit+ICEWS14",
+      "added": "lastfm",
+      "source_mean_delta": 0.02306430890630351,
+      "target_delta": 0.008822256560836794
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "reddit+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.007879896897174055,
+      "target_delta": -0.003218819349652291
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14+GDELT",
+      "added": "lastfm",
+      "source_mean_delta": 0.006477398909915388,
+      "target_delta": 0.0026081031823719236
+    },
+    {
+      "target": "mooc",
+      "seed": 37,
+      "sources": "wikipedia+reddit+lastfm+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.02326148425467936,
+      "target_delta": -0.0027849047341380606
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "reddit",
+      "added": "wikipedia",
+      "source_mean_delta": 0.009143872030172862,
+      "target_delta": 0.0010284401532885123
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "reddit",
+      "added": "mooc",
+      "source_mean_delta": 0.02687612401863837,
+      "target_delta": -0.0024243922411015806
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "wikipedia",
+      "source_mean_delta": 0.005648912142104945,
+      "target_delta": -0.001104789783686
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "reddit",
+      "source_mean_delta": 0.0041443154017071215,
+      "target_delta": -0.002804702715627827
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.006959017259338229,
+      "target_delta": 0.00451534550537025
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.01521093761470238,
+      "target_delta": -0.0020801565353558704
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "wikipedia+reddit",
+      "added": "mooc",
+      "source_mean_delta": 0.025278711335637694,
+      "target_delta": 0.010796011904062763
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "wikipedia+reddit",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.019320011511321955,
+      "target_delta": 0.009464835740707112
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "wikipedia+reddit",
+      "added": "GDELT",
+      "source_mean_delta": 0.00859170377977958,
+      "target_delta": 0.005170359299876304
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "wikipedia+mooc",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.01614730871838671,
+      "target_delta": 0.00346444564154913
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "wikipedia+mooc",
+      "added": "GDELT",
+      "source_mean_delta": 0.010596430281869573,
+      "target_delta": 0.008321693487617132
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "wikipedia+ICEWS14",
+      "added": "reddit",
+      "source_mean_delta": 0.011233207436577186,
+      "target_delta": 0.007549460842540934
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "wikipedia+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.016153767858252566,
+      "target_delta": 0.004898953818119445
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "reddit+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.008528092411309085,
+      "target_delta": 0.0012975060655696646
+    },
+    {
+      "target": "lastfm",
+      "seed": 7,
+      "sources": "mooc+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.0023776057631123004,
+      "target_delta": -0.006682232164797242
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "reddit",
+      "source_mean_delta": 0.005111436328961494,
+      "target_delta": -0.0033986954556050053
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "mooc",
+      "source_mean_delta": 0.01682843889418617,
+      "target_delta": -0.00086197199778415
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia",
+      "added": "GDELT",
+      "source_mean_delta": 0.014497971560602396,
+      "target_delta": -0.017875747536139852
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "reddit",
+      "added": "wikipedia",
+      "source_mean_delta": 0.01702978201976235,
+      "target_delta": 0.013800196499183404
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "reddit",
+      "added": "GDELT",
+      "source_mean_delta": 0.0046801794663390295,
+      "target_delta": 0.006624509809445289
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "wikipedia",
+      "source_mean_delta": 0.0038965384527746005,
+      "target_delta": 0.028216758928483743
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "reddit",
+      "source_mean_delta": 0.004835520887656819,
+      "target_delta": 0.035518124319280475
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.004633035909745065,
+      "target_delta": 0.04673465478779126
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.013747519906491812,
+      "target_delta": 0.028971350657637118
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia+reddit",
+      "added": "mooc",
+      "source_mean_delta": 0.00700326973598242,
+      "target_delta": 0.0036512406438447
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia+reddit",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.008771698720520582,
+      "target_delta": -0.0003126703295497357
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia+reddit",
+      "added": "GDELT",
+      "source_mean_delta": 0.006659370812045262,
+      "target_delta": -0.005414746201373277
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia+mooc",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.0056876036131782715,
+      "target_delta": -0.002466493598862085
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia+mooc",
+      "added": "GDELT",
+      "source_mean_delta": 0.009322253258517932,
+      "target_delta": -0.0031330152674993172
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia+ICEWS14",
+      "added": "reddit",
+      "source_mean_delta": 0.013259773118239948,
+      "target_delta": -0.0016084295204983334
+    },
+    {
+      "target": "lastfm",
+      "seed": 17,
+      "sources": "wikipedia+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.016077221160292865,
+      "target_delta": -0.0012255293319898275
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "wikipedia",
+      "added": "mooc",
+      "source_mean_delta": 0.014601773490473868,
+      "target_delta": -0.011878813567303581
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "reddit",
+      "added": "wikipedia",
+      "source_mean_delta": 0.018190814251324627,
+      "target_delta": 0.007314885332232568
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "reddit",
+      "added": "mooc",
+      "source_mean_delta": 0.01458046152215109,
+      "target_delta": -0.021619033881499994
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.0020112752754325447,
+      "target_delta": 0.0017668319452412984
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.01311443693370673,
+      "target_delta": -0.003696994896787542
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "wikipedia+reddit",
+      "added": "mooc",
+      "source_mean_delta": 0.015277310231010977,
+      "target_delta": 0.005417144390369333
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "wikipedia+reddit",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.010555329879057718,
+      "target_delta": 0.0024345099650561197
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14",
+      "added": "reddit",
+      "source_mean_delta": 0.025173559103455034,
+      "target_delta": 0.00040395282979932556
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.02547987124676021,
+      "target_delta": -0.010315883699201223
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "wikipedia+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.005282132948044804,
+      "target_delta": -0.003044824492745457
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "reddit+mooc",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.00761023061545818,
+      "target_delta": 0.01402709812542069
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "reddit+mooc",
+      "added": "GDELT",
+      "source_mean_delta": 0.0016206348924157066,
+      "target_delta": 0.008473891475304529
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "reddit+ICEWS14",
+      "added": "wikipedia",
+      "source_mean_delta": 0.017562616977573886,
+      "target_delta": 0.01049381328568777
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "reddit+ICEWS14",
+      "added": "mooc",
+      "source_mean_delta": 0.018002901143009398,
+      "target_delta": -0.006847517767680222
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "reddit+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.007253161868512159,
+      "target_delta": 0.01826299527951225
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "wikipedia+ICEWS14+GDELT",
+      "added": "mooc",
+      "source_mean_delta": 0.01144066235120722,
+      "target_delta": -0.017337873187452058
+    },
+    {
+      "target": "lastfm",
+      "seed": 37,
+      "sources": "wikipedia+reddit+mooc+GDELT",
+      "added": "ICEWS14",
+      "source_mean_delta": 0.026145959962505017,
+      "target_delta": 0.00598819342228718
+    }
+  ],
+  "head_intervention": [
+    {
+      "head_seed": 7,
+      "ap": 0.598256831258763
+    },
+    {
+      "head_seed": 17,
+      "ap": 0.7160297422138113
+    },
+    {
+      "head_seed": 37,
+      "ap": 0.7280977968280089
+    }
+  ],
+  "full_benchmark": {
+    "TFRA-E": {
+      "target_only_ap": 0.7169,
+      "transfer_ap": 0.736,
+      "mean_gain": 0.019125
+    },
+    "TFRA-B": {
+      "target_only_ap": 0.7517,
+      "transfer_ap": 0.7602,
+      "mean_gain": 0.008499
+    }
+  }
+}

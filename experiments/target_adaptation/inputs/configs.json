@@ -1,0 +1,194 @@
+{
+  "wikipedia": {
+    "experiment": "cross_representation",
+    "protocol": "tgat_typed_source_ctdg_target_v1",
+    "datasets": [
+      "wikipedia",
+      "reddit",
+      "mooc",
+      "lastfm",
+      "ICEWS14",
+      "GDELT"
+    ],
+    "families": {
+      "wikipedia": "ctdg",
+      "reddit": "ctdg",
+      "mooc": "ctdg",
+      "lastfm": "ctdg",
+      "ICEWS14": "tkg",
+      "GDELT": "tkg"
+    },
+    "target": "wikipedia",
+    "sources": [
+      "reddit",
+      "mooc",
+      "lastfm",
+      "ICEWS14",
+      "GDELT"
+    ],
+    "data_root": "data/benchmarks/events32768",
+    "max_events": 32768,
+    "seeds": [
+      7,
+      17,
+      37
+    ],
+    "pretrain_updates": 60,
+    "epochs": 5,
+    "batch_size": 2048,
+    "tkg_batch_size": 1024,
+    "microbatch": 512,
+    "history_length": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "grad_clip": 1.0,
+    "cpu_threads": 2,
+    "device": "cuda:0",
+    "output_root": "experiments/transfer/outputs/cross_representation_two_tkg_v1/wikipedia",
+    "all_source_subsets": true
+  },
+  "reddit": {
+    "experiment": "cross_representation",
+    "protocol": "tgat_typed_source_ctdg_target_v1",
+    "datasets": [
+      "wikipedia",
+      "reddit",
+      "mooc",
+      "lastfm",
+      "ICEWS14",
+      "GDELT"
+    ],
+    "families": {
+      "wikipedia": "ctdg",
+      "reddit": "ctdg",
+      "mooc": "ctdg",
+      "lastfm": "ctdg",
+      "ICEWS14": "tkg",
+      "GDELT": "tkg"
+    },
+    "target": "reddit",
+    "sources": [
+      "wikipedia",
+      "mooc",
+      "lastfm",
+      "ICEWS14",
+      "GDELT"
+    ],
+    "data_root": "data/benchmarks/events32768",
+    "max_events": 32768,
+    "seeds": [
+      7,
+      17,
+      37
+    ],
+    "pretrain_updates": 60,
+    "epochs": 5,
+    "batch_size": 2048,
+    "tkg_batch_size": 1024,
+    "microbatch": 512,
+    "history_length": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "grad_clip": 1.0,
+    "cpu_threads": 2,
+    "device": "cuda:0",
+    "output_root": "experiments/transfer/outputs/cross_representation_two_tkg_v1/reddit",
+    "all_source_subsets": true
+  },
+  "mooc": {
+    "experiment": "cross_representation",
+    "protocol": "tgat_typed_source_ctdg_target_v1",
+    "datasets": [
+      "wikipedia",
+      "reddit",
+      "mooc",
+      "lastfm",
+      "ICEWS14",
+      "GDELT"
+    ],
+    "families": {
+      "wikipedia": "ctdg",
+      "reddit": "ctdg",
+      "mooc": "ctdg",
+      "lastfm": "ctdg",
+      "ICEWS14": "tkg",
+      "GDELT": "tkg"
+    },
+    "target": "mooc",
+    "sources": [
+      "wikipedia",
+      "reddit",
+      "lastfm",
+      "ICEWS14",
+      "GDELT"
+    ],
+    "data_root": "data/benchmarks/events32768",
+    "max_events": 32768,
+    "seeds": [
+      7,
+      17,
+      37
+    ],
+    "pretrain_updates": 60,
+    "epochs": 5,
+    "batch_size": 2048,
+    "tkg_batch_size": 1024,
+    "microbatch": 512,
+    "history_length": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "grad_clip": 1.0,
+    "cpu_threads": 2,
+    "device": "cuda:0",
+    "output_root": "experiments/transfer/outputs/cross_representation_two_tkg_v1/mooc",
+    "all_source_subsets": true
+  },
+  "lastfm": {
+    "experiment": "cross_representation",
+    "protocol": "tgat_typed_source_ctdg_target_v1",
+    "datasets": [
+      "wikipedia",
+      "reddit",
+      "mooc",
+      "lastfm",
+      "ICEWS14",
+      "GDELT"
+    ],
+    "families": {
+      "wikipedia": "ctdg",
+      "reddit": "ctdg",
+      "mooc": "ctdg",
+      "lastfm": "ctdg",
+      "ICEWS14": "tkg",
+      "GDELT": "tkg"
+    },
+    "target": "lastfm",
+    "sources": [
+      "wikipedia",
+      "reddit",
+      "mooc",
+      "ICEWS14",
+      "GDELT"
+    ],
+    "data_root": "data/benchmarks/events32768",
+    "max_events": 32768,
+    "seeds": [
+      7,
+      17,
+      37
+    ],
+    "pretrain_updates": 60,
+    "epochs": 5,
+    "batch_size": 2048,
+    "tkg_batch_size": 1024,
+    "microbatch": 512,
+    "history_length": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "grad_clip": 1.0,
+    "cpu_threads": 2,
+    "device": "cuda:0",
+    "output_root": "experiments/transfer/outputs/cross_representation_two_tkg_v1/lastfm",
+    "all_source_subsets": true
+  }
+}

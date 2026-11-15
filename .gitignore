@@ -1,0 +1,32 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.nbc
+*.nbi
+.venv/
+venv/
+.env
+.env.*
+
+# Downloaded data, checkpoints, and generated experiment results
+/data/
+/external/
+/archive/
+/experiments/**/outputs/
+/experiments/preliminary/seed_factorial/
+/experiments/preliminary/head_initialization_v1/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.log
+runs/
+wandb/
+
+# Local editor files
+.vscode/
+.idea/
+.DS_Store

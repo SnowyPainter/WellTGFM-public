@@ -1,0 +1,29 @@
+{
+  "TGN": {
+    "url": "https://github.com/twitter-research/tgn",
+    "commit": "d55bbe678acabb9fc3879c408fd1f2e15919667c",
+    "download": "https://github.com/twitter-research/tgn/archive/d55bbe678acabb9fc3879c408fd1f2e15919667c.zip"
+  },
+  "DyGLib": {
+    "url": "https://github.com/yule-BUAA/DyGLib",
+    "commit": "3aacc36b94b8d2d8293d70a74fdf6d39089b4163",
+    "download": "https://github.com/yule-BUAA/DyGLib/archive/3aacc36b94b8d2d8293d70a74fdf6d39089b4163.zip"
+  },
+  "TLogic": {
+    "url": "https://github.com/liu-yushan/TLogic",
+    "commit": "9f6ffa3cc5c112226dc2537983b6bb33d4ef295e",
+    "download": "https://github.com/liu-yushan/TLogic/archive/9f6ffa3cc5c112226dc2537983b6bb33d4ef295e.zip"
+  },
+  "CyGNet": {
+    "url": "https://github.com/CunchaoZ/CyGNet",
+    "commit": "1295cb32cb55a04c728735994f8226a11fa90056",
+    "download": "https://github.com/CunchaoZ/CyGNet/archive/1295cb32cb55a04c728735994f8226a11fa90056.zip"
+  },
+  "GraphMixer": {
+    "url": "https://github.com/CongWeilin/GraphMixer",
+    "commit": "c84f1e0bee4eed848872a966b8166d741e240713",
+    "download": "https://github.com/CongWeilin/GraphMixer/archive/c84f1e0bee4eed848872a966b8166d741e240713.zip",
+    "local_file": "models/baselines/graphmixer/model.py",
+    "note": "Unchanged upstream model.py; no separate LICENSE in this revision."
+  }
+}
